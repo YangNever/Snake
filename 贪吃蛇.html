@@ -201,12 +201,12 @@
   var st = document.getElementById("start");
   var sp = document.getElementById("stop");
   var flag = true ;
-  game.init();
+
   st.onclick = function(){
     if(!flag){
       return;
     }
-
+    game.init();
     flag = false ;
   };
   sp.onclick = function(){
